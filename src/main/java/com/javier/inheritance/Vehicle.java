@@ -5,15 +5,15 @@ public class Vehicle {
     
     // ATTRIBUTES
     private String brand;
-    private int amountWheel;
+    private int amountWheels;
 
     // CONSTRUCTORS
     public Vehicle() {
     }
 
-    public Vehicle(String brand, int amountWheel) {
+    public Vehicle(String brand, int amountWheels) {
         this.brand = brand;
-        this.amountWheel = amountWheel;
+        this.amountWheels = amountWheels;
     }
     
     // SOME METHODS THAT YOU NEED
@@ -27,17 +27,17 @@ public class Vehicle {
         this.brand = brand;
     }
 
-    public int getAmountWheel() {
-        return amountWheel;
+    public int getAmountWheels() {
+        return amountWheels;
     }
 
-    public void setAmountWheel(int amountWheel) {
-        this.amountWheel = amountWheel;
+    public void setAmountWheels(int amountWheels) {
+        this.amountWheels = amountWheels;
     }
 
     @Override
     public String toString() {
-        return "Vehicle{" + "brand=" + brand + ", amountWheel=" + amountWheel + '}';
+        return "Vehicle{" + "brand=" + brand + ", amountWheel=" + amountWheels + '}';
     }
 
 
