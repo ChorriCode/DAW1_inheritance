@@ -28,7 +28,8 @@ public class Car extends Vehicle{
 
     @Override
     public String toString() {
-        return "Car{" + "engineCC=" + engineCC + '}';
+        return "\nFROM CLASS CAR AND " + super.toString() + "Car{" + "engineCC=" + engineCC + '}';
+        //return "Car{" + "engineCC=" + engineCC + '}';
     }
     
     

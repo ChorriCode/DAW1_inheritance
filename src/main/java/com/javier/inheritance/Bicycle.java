@@ -16,7 +16,6 @@ public class Bicycle {
     // SOME METHODS THAT YOU NEED
 
     // METHODS GETTER, SETTERS AND TOSTRING 
-
     public String getType() {
         return type;
     }
@@ -27,7 +26,7 @@ public class Bicycle {
 
     @Override
     public String toString() {
-        return "Bicycle{" + "type=" + type + '}';
+        return "\nFROM CLASS BICYCLE:\n" + "Bicycle{" + "type=" + type + '}';
     }
     
 }
